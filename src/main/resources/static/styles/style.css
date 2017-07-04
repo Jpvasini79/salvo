@@ -1,0 +1,481 @@
+h1 {
+    text-align: center;
+    font-family: 'Barrio', cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px 9px rgba(150, 150, 150, 0.37);
+}
+
+.cell:hover {
+    background-color: #edde5c;
+}
+
+.cell2table:hover {
+    background-color: #edde5c;
+}
+
+.cell {
+    display: table-cell;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    width: 20px;
+    height: 35px;
+}
+
+.cell2 {
+    display: table-cell;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-top: 0px;
+    border-left: 0px;
+    width: 40px;
+    height: 35px;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.row {
+    display: table-row;
+    clear: both;
+    overflow: hidden;
+}
+
+.table {
+    display: table;
+    display: table;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    border-color: #afa11d;
+}
+
+.playersvs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+    border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    border: 1px solid #000000;
+    font-family: 'Francois One', sans-serif;
+    font-size: 35px;
+    -webkit-box-shadow: 0px 7px 52px -1px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 7px 52px -1px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 7px 52px -1px rgba(0, 0, 0, 0.38);
+    margin-bottom: 50px;
+}
+
+.emptyshot {
+    background-color: blue;
+    width: 20px;
+    height: 35px;
+}
+
+.barco {
+    background-color: green;
+    width: 20px;
+    height: 35px;
+}
+
+.hitted {
+    background-color: red;
+    width: 20px;
+    height: 35px;
+}
+
+.table2 {
+    display: table;
+    display: table;
+    margin-bottom: 50px;
+}
+
+.cell2table {
+    display: table-cell;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    width: 20px;
+    height: 35px;
+}
+
+.cellnum {
+    display: table-cell;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-top: 0px;
+    border-left: 0px;
+    width: 40px;
+    height: 35px;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.row2 {
+    display: table-row;
+    clear: both;
+    overflow: hidden;
+}
+
+.tableflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 90px;
+    align-content: center;
+    margin-bottom: 35px;
+}
+
+.gamesbody {
+    background-color: #ffeb3b;
+    font-family: 'Oswald', sans-serif;
+}
+
+.gameviewbody {
+    background-color: #ffeb3b;
+}
+
+.tableleaderboard {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.leaderboard {
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Barrio', cursive;
+    text-shadow: 5px 5px 9px rgba(150, 150, 150, 0.37);
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid #afa11d;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: #edde5c;
+}
+
+.formlogin {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.containerUserPwd {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+b {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.formnewlogin {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 99999;
+    margin: auto;
+}
+
+.fadeform {
+    display: none;
+    background-color: #ffeb3b;
+    margin: auto;
+}
+
+.currntp {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #ffeb3b;
+    border: 1px solid #ffeb3b;
+}
+
+.buttonplay {
+    margin-right: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.mainlist {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+ul::-webkit-scrollbar {
+    width: 1em;
+}
+
+ul::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: #afa11d;
+    outline: 1px solid #afa11d;
+}
+
+.carrierspace {
+    width: 260px;
+    padding: 14px;
+    margin: 0;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 2px solid #000000;
+}
+
+.justcarriertittle {
+    text-align: center;
+    font-family: 'Barrio', cursive;
+}
+
+.battleshipspace {
+    width: 220px;
+    padding: 14px;
+    margin: 0;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 2px solid #000000;
+}
+
+.tableplaceships {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.justbattletittle {
+    text-align: center;
+    font-family: 'Barrio', cursive;
+}
+
+.justsubmarinetittle {
+    text-align: center;
+    font-family: 'Barrio', cursive;
+}
+
+.justdestroyertittle {
+    text-align: center;
+    font-family: 'Barrio', cursive;
+}
+
+.justpatroltittle {
+    text-align: center;
+    font-family: 'Barrio', cursive;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submarinespace {
+    width: 180px;
+    padding: 14px;
+    margin: 0;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 2px solid #000000;
+}
+
+.destroyerspace {
+    width: 180px;
+    padding: 14px;
+    margin: 0;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 2px solid #000000;
+}
+
+.patrolbspace {
+    width: 120px;
+    padding: 14px;
+    margin: 0;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 2px solid #000000;
+}
+
+.shipselected {
+    background-color: #42a7f4;
+}
+
+.submarinespace:hover {
+    background-color: #416bf4;
+}
+
+.destroyerspace:hover {
+    background-color: #416bf4;
+}
+
+.patrolbspace:hover {
+    background-color: #416bf4;
+}
+
+.battleshipspace:hover {
+    background-color: #416bf4;
+}
+
+.carrierspace:hover {
+    background-color: #416bf4;
+}
+
+.checkedposition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftcheck {
+    margin-top: 20px;
+    margin-right: 15px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+}
+
+.rightcheck {
+    font-family: 'Francois One', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 80%;
+    height: 2em;
+}
+
+.messageError {
+    margin-top: 25px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+}
+
+.buttonsend {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    top: 25px;
+    background-image: -webkit-linear-gradient(top, #ffeb3b, #c2b029);
+    background-image: -moz-linear-gradient(top, #ffeb3b, #c2b029);
+    background-image: -ms-linear-gradient(top, #ffeb3b, #c2b029);
+    background-image: -o-linear-gradient(top, #ffeb3b, #c2b029);
+    background-image: linear-gradient(to bottom, #ffeb3b, #c2b029);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 1px 5px #666666;
+    -moz-box-shadow: 0px 1px 5px #666666;
+    box-shadow: 0px 1px 5px #666666;
+    color: #000000;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 1px;
+    text-decoration: none;
+}
+
+.buttonsend:hover {
+    background: #d1c990;
+    background-image: -webkit-linear-gradient(top, #d1c990, #ffeb3b);
+    background-image: -moz-linear-gradient(top, #d1c990, #ffeb3b);
+    background-image: -ms-linear-gradient(top, #d1c990, #ffeb3b);
+    background-image: -o-linear-gradient(top, #d1c990, #ffeb3b);
+    background-image: linear-gradient(to bottom, #d1c990, #ffeb3b);
+    text-decoration: none;
+}
+
+.tablez {
+    margin: auto;
+    -webkit-box-shadow: 21px 44px 75px -33px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 21px 44px 75px -33px rgba(0, 0, 0, 0.75);
+    box-shadow: 21px 44px 75px -33px rgba(0, 0, 0, 0.75);
+}
+
+.tablez2 {
+    margin: auto;
+    -webkit-box-shadow: 21px 44px 75px -33px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 21px 44px 75px -33px rgba(0, 0, 0, 0.75);
+    box-shadow: 21px 44px 75px -33px rgba(0, 0, 0, 0.75);
+}
+
+.shotsfired {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    top: 25px;
+    background-image: -webkit-linear-gradient(top, #ffeb3b, #c2b029);
+    background-image: -moz-linear-gradient(top, #ffeb3b, #c2b029);
+    background-image: -ms-linear-gradient(top, #ffeb3b, #c2b029);
+    background-image: -o-linear-gradient(top, #ffeb3b, #c2b029);
+    background-image: linear-gradient(to bottom, #ffeb3b, #c2b029);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 1px 5px #666666;
+    -moz-box-shadow: 0px 1px 5px #666666;
+    box-shadow: 0px 1px 5px #666666;
+    color: #000000;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 1px;
+    text-decoration: none;
+}
+
+.shotsfired:hover {
+    background: #d1c990;
+    background-image: -webkit-linear-gradient(top, #d1c990, #ffeb3b);
+    background-image: -moz-linear-gradient(top, #d1c990, #ffeb3b);
+    background-image: -ms-linear-gradient(top, #d1c990, #ffeb3b);
+    background-image: -o-linear-gradient(top, #d1c990, #ffeb3b);
+    background-image: linear-gradient(to bottom, #d1c990, #ffeb3b);
+    text-decoration: none;
+}

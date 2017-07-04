@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Francois+One|Gloria+Hallelujah|Metamorphous|Play" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <title>Salvo!</title>
+</head>
+
+<body class="gamesbody">
+   
+    <div class="currentplayer">
+    
+    </div>
+    
+    <h1>Salvo!</h1>
+    
+    <div class="flexform">
+        <div class="formlogin">
+            <form class="loginform">
+                <div class="containerUserPwd">
+                    <label><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="name" required>
+
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="pwd" required>
+
+                    <button class="loginbotton" id="logclick" type="submit">Login</button>
+                </div>
+
+                <div class="forgotcontainer">
+                    <button type="button" class="cancelbtn">Logout</button>
+                    <button type="button" class="signin">Sign Up</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="formnewlogin">
+            <form class="fadeform">
+                <div class="containerUserPwdSignIn">
+                    <label><b>New User</b></label>
+                    <input type="text" placeholder="Enter New Username" name="name" required>
+
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="pwd" required>
+
+                    <button class="signupbutton" type="submit">Sing Up</button>
+                </div>
+
+                <div class="forgotcontainer">
+                    <button type="button" class="cancelbtn">Logout</button>
+                    <button type="button" class="loginbotton">Log In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+
+    </div>
+    
+    <div class="containerButton"></div>
+    
+    <div class="leaderflex">
+        <h3 class="leaderboard"> Leaderboard </h3>
+        <div class="tableleaderboard">
+
+        </div>
+    </div>
+
+</body>
+
+<script type="application/javascript" src="scripts/scripts.js"></script>
+<script type="application/javascript" src="scripts/games.js"></script>
+
+</html>
